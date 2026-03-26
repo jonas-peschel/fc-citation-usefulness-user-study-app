@@ -368,7 +368,7 @@
                         "relevant_output": "Rating: [[Irrelevant]]\n",
                         "relevant_score": 0,
                         "pre_context": "This policy statement focuses on the first phase of changes being introduced in 2021.\nSalary and skills thresholds\n3.",
-                        "post_context": "We are grateful for its considered work.\n4."
+                        "post_context": "We are grateful for its considered work."
                     },
                     {
                         "cite": "We will implement the MAC\u2019s recommendation to bring the skills threshold down from RQF6 to RQF3.",
@@ -532,7 +532,7 @@
                 "statement": "The evidence shows that all 50 states have legislation requiring specified vaccines for students, with exemptions granted for medical reasons and in some cases religious or philosophical beliefs.",
                 "citation": [
                     {
-                        "cite": "Loading...\nhttps://www.facebook.com/photo.php?fbid=551960552369167&set=a.112646526300574&type=3&eid=ARA1wOXSL8gp3ZK9Edp1G96R3fZiRuCdtHhEvG1VOPJ4DE3iXkX_bz0-2l72dlNl9H3UuNfxCWwp8sPz | 09:27:36 March 06, 2025\nGot an HTTP 302 response at crawl time\nRedirecting to...\nhttps://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D551960552369167%26set%3Da.112646526300574%26type%3D3%26eid%3DARA1wOXSL8gp3ZK9Edp1G96R3fZiRuCdtHhEvG1VOPJ4DE3iXkX_bz0-2l72dlNl9H3UuNfxCWwp8sPz\n\nAll 50 states have legislation requiring specified vaccines for students. Although exemptions vary from state to state, all school immunization laws grant exemptions to children for medical reasons.",
+                        "cite": "All 50 states have legislation requiring specified vaccines for students. Although exemptions vary from state to state, all school immunization laws grant exemptions to children for medical reasons.",
                         "span": [
                             1,
                             2
@@ -540,7 +540,7 @@
                         "score": 36.90585736222798,
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
-                        "pre_context": "Ask the publishers to restore access to 500,000+ books.",
+                        "pre_context": "",
                         "post_context": "There are 44 states and Washington D.C. that grant religious exemptions for people who have religious objections to immunizations."
                     }
                 ],
@@ -704,7 +704,7 @@
                         "score": 1.6874227853308892,
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
-                        "pre_context": "Hawaii\n\u201cIt is coming, and it\u2019s going to be more of a checkerboard,\u201d said Tara Smith, a professor of epidemiology at Kent State University in Ohio. \u201cIt\u2019s not going to be a wave that spreads out uniformly over all of rural America; it\u2019s going to be hot spots that come and go.",
+                        "pre_context": "\u201cIt is coming, and it\u2019s going to be more of a checkerboard,\u201d said Tara Smith, a professor of epidemiology at Kent State University in Ohio. \u201cIt\u2019s not going to be a wave that spreads out uniformly over all of rural America; it\u2019s going to be hot spots that come and go.",
                         "post_context": "In many of those places, where the health-care system is already stretched thin, even a minor surge in patients is enough to overwhelm.\nDeath rates decline in cities\nbut not in rural America\nThese charts show the number of covid-19 deaths\nper day for every 100,000 people in each\nof the CDC\u2019s six rural-urban categories."
                     }
                 ],
@@ -747,7 +747,7 @@
                         "score": 2.5632517345276113,
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
-                        "pre_context": "Texas\nAlaska\nFla.\nHawaii\n\u201cIt is coming, and it\u2019s going to be more of a checkerboard,\u201d said Tara Smith, a professor of epidemiology at Kent State University in Ohio.",
+                        "pre_context": "It is coming, and it\u2019s going to be more of a checkerboard,\u201d said Tara Smith, a professor of epidemiology at Kent State University in Ohio.",
                         "post_context": "And I don\u2019t know how well they\u2019re going to be managed.\u201d\nAmerica\u2019s largest and most densely populated cities and suburbs still suffer more infections and deaths per capita, but those overall rates are increasing faster in smaller, rural counties where the virus has spread rapidly in the past month, the Post analysis found.\nIn many of those places, where the health-care system is already stretched thin, even a minor surge in patients is enough to overwhelm."
                     },
                     {
@@ -760,7 +760,7 @@
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
                         "pre_context": "Many of these communities are isolated and hard to reach. They were largely spared from the disease shutting down their states \u2014 until, suddenly, they weren\u2019t.",
-                        "post_context": "Change in reported\ncases since May 3\n7x more\ncases\nthan on\nMay 3\nLine height and color\nshow change in reported\ncases relative to May 3.\n4x\n2x\nLine thickness shows\nthe current number of cases\nrelative to county population\nLess\nMore\nMaine\nHuntingdon Co., Penn."
+                        "post_context": ""
                     }
                 ],
                 "support_output": "Rating: [[Fully supported]]  \n",

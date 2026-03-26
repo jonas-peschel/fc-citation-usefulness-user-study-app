@@ -160,7 +160,7 @@
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
                         "pre_context": "Zlochevsky denied wrongdoing in those cases.\n\u2026\nShokin \u2014 who has provided information about Biden to Giuliani \u2014 told The Post earlier this year that he believes he was ousted in March 2016 because he was investigating Burisma.",
-                        "post_context": "officials.\nThe New York Times makes a slightly different claim:\nMr."
+                        "post_context": "officials.\nThe New York Times makes a slightly different claim:"
                     }
                 ],
                 "support_output": "Rating: [[Partially supported]]  \n",
@@ -477,7 +477,7 @@
                         "score": 0.9888259172439575,
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
-                        "pre_context": "|\n| Purpose | Respirators protect from exposure to airborne particles. In healthcare, protects from exposure to biological aerosols including viruses and bacteria.",
+                        "pre_context": "| Purpose | Respirators protect from exposure to airborne particles. In healthcare, protects from exposure to biological aerosols including viruses and bacteria.",
                         "post_context": "Protects the patient from the wearer\u2019s respiratory emissions. |\n| Fit (Face seal) | Respirators are designed to seal tight to the face of the wearer."
                     },
                     {
@@ -587,7 +587,7 @@
                         "score": 0.9986194968223572,
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
-                        "pre_context": "Ann. \u00a7 21-4-309\n|\nYes\n|\nNo\n|\nReligious exemption indicates that there is a provision in the statute that allows parents to exempt their children from vaccination if it contradicts their sincere religious beliefs.",
+                        "pre_context": "Religious exemption indicates that there is a provision in the statute that allows parents to exempt their children from vaccination if it contradicts their sincere religious beliefs.",
                         "post_context": "Sources: Chart adapted from Immunization Action Coalition, \"Exemptions Permitted for State Immunization Requirements,\" 2017; LexisNexis; StateNet 2017\nNote: List may not be comprehensive, but is representative of state laws that exist. NCSL appreciates additions and corrections."
                     },
                     {
@@ -612,7 +612,7 @@
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
                         "pre_context": "Enacted Legislation 2017\n- Indiana House Bill 1069 adds meningitis to the required immunizations a student enrolling in a residential campus of an approved postsecondary educational institution must be immunized against.\n- Utah House Bill 308 requires the Department of Health to create an online education module regarding certain preventable diseases; amends the grounds for exemptions from required vaccines; requires the renewal of a student's vaccination exemption under certain conditions; create a new vaccination exemption form; allows for the vaccination exemption form to be completed online in conjunction with the education module and discontinues the practice of allowing local health departments to vaccinate students and recover costs.",
-                        "post_context": "Code \u00a7 16-30-3\n|\nYes\n|\nNo\n|\n|\nAlaska\n|\nAk. Stat."
+                        "post_context": ""
                     }
                 ],
                 "support_output": "Rating: [[Partially supported]]  \n",
@@ -673,18 +673,6 @@
                         "post_context": "The plant was first imported into the island nation in the 1970s from China to treat malaria.\nIt is now marketed in bottles as a herbal tea, while Rajoelina has said clinical trials are under way in Madagascar to produce a form that can be injected into the body."
                     },
                     {
-                        "cite": "Following Rajoelina's claims, the World Health Organization (WHO) advised people against using untested remedies for COVID-19.\n\"Africans deserve to use medicines tested to the same standards as people in the rest of the world,\" WHO, the United Nations health agency, said in a statement on Monday.",
-                        "span": [
-                            124,
-                            125
-                        ],
-                        "score": null,
-                        "relevant_output": "Rating: [[Irrelevant]]\n",
-                        "relevant_score": 0,
-                        "pre_context": "It is now marketed in bottles as a herbal tea, while Rajoelina has said clinical trials are under way in Madagascar to produce a form that can be injected into the body.\nIs it safe or effective?",
-                        "post_context": "\"Even if therapies are derived from traditional practice and natural, establishing their efficacy and safety through rigorous clinical trials is critical,\" the statement added.\nThe US Centers for Disease Control and Prevention (CDC) also warned people against using unproven remedies."
-                    },
-                    {
                         "cite": "\"There is no scientific evidence that any of these alternative remedies can prevent or cure the illness caused by COVID-19.",
                         "span": [
                             128,
@@ -695,30 +683,6 @@
                         "relevant_score": 1,
                         "pre_context": "\"Even if therapies are derived from traditional practice and natural, establishing their efficacy and safety through rigorous clinical trials is critical,\" the statement added.\nThe US Centers for Disease Control and Prevention (CDC) also warned people against using unproven remedies.",
                         "post_context": "In fact, some of them may not be safe to consume,\" the CDC said.\nMeanwhile, the African Union said it was in discussion with Madagascar with a view to obtain technical data regarding the safety and efficiency of the herbal remedy."
-                    },
-                    {
-                        "cite": "In an attempt to reassure people and brush aside safety concerns, Rajoelina took a dose of Covid-Organics at the launch event and said it was safe to be given to children.",
-                        "span": [
-                            131,
-                            131
-                        ],
-                        "score": null,
-                        "relevant_output": "Rating: [[Irrelevant]]\n",
-                        "relevant_score": 0,
-                        "pre_context": "In fact, some of them may not be safe to consume,\" the CDC said.\nMeanwhile, the African Union said it was in discussion with Madagascar with a view to obtain technical data regarding the safety and efficiency of the herbal remedy.",
-                        "post_context": "Has it been exported?\nSeveral African countries, including Tanzania, Liberia, Equatorial Guinea and Guinea-Bissau, have either placed orders or have received consignments of the remedy."
-                    },
-                    {
-                        "cite": "COVID-19 has spread to all but one country in Africa, Lesotho.",
-                        "span": [
-                            138,
-                            138
-                        ],
-                        "score": null,
-                        "relevant_output": "Rating: [[Irrelevant]] ",
-                        "relevant_score": 0,
-                        "pre_context": "We will send a flight there and the medicine will be brought in the country so that Tanzanians too can benefit.\"\nMeanwhile in Guinea-Bissau, President Umaro Sissoco Embalo went to the airport on Saturday to receive a shipment of the beverage donated by the Madagascan leader.",
-                        "post_context": "As of Tuesday, at least 1,862 people across the continent have died from the virus.\n\nIn the News: Coronavirus and \u201cAlternative\u201d Treatments\nCoronaviruses are a large family of viruses."
                     }
                 ],
                 "support_output": "Rating: [[Partially supported]] ",
@@ -727,42 +691,6 @@
             {
                 "statement": "The evidence also indicates that there are currently no approved drugs for COVID-19 and numerous treatments and vaccines are currently being tested around the world.",
                 "citation": [
-                    {
-                        "cite": "More:\nRajoelina, a former DJ who in 2009 at the age of 34 became the continent's youngest national leader, claimed at the launch that the remedy, named Covid-Organics, had already cured two people.",
-                        "span": [
-                            116,
-                            116
-                        ],
-                        "score": null,
-                        "relevant_output": "Rating: [[Irrelevant]]  \n",
-                        "relevant_score": 0,
-                        "pre_context": "As COVID-19 spread across Africa and leaders put their countries in lockdown, Madagascan President Andry Rajoelina last month launched an herbal remedy that he claimed could prevent and cure the disease.\nThe announcement caught medical experts, who have scrambled to find a cure for the disease that has killed more than 252,000 and infected at least 3.6 million people globally, by surprise.",
-                        "post_context": "\"This herbal tea gives results in seven days,\" Rajoelina, 45, told journalists and diplomats in April.\nSoldiers have since been going door-to-door in the Indian Ocean island country, which has reported 149 cases and no fatalities, dispensing the concoction."
-                    },
-                    {
-                        "cite": "Following Rajoelina's claims, the World Health Organization (WHO) advised people against using untested remedies for COVID-19.",
-                        "span": [
-                            124,
-                            124
-                        ],
-                        "score": null,
-                        "relevant_output": "Rating: [[Irrelevant]]\n",
-                        "relevant_score": 0,
-                        "pre_context": "It is now marketed in bottles as a herbal tea, while Rajoelina has said clinical trials are under way in Madagascar to produce a form that can be injected into the body.\nIs it safe or effective?",
-                        "post_context": "\"Africans deserve to use medicines tested to the same standards as people in the rest of the world,\" WHO, the United Nations health agency, said in a statement on Monday.\n\"Even if therapies are derived from traditional practice and natural, establishing their efficacy and safety through rigorous clinical trials is critical,\" the statement added."
-                    },
-                    {
-                        "cite": "\"There is no scientific evidence that any of these alternative remedies can prevent or cure the illness caused by COVID-19. In fact, some of them may not be safe to consume,\" the CDC said.",
-                        "span": [
-                            128,
-                            129
-                        ],
-                        "score": null,
-                        "relevant_output": "Rating: [[Irrelevant]]  \n",
-                        "relevant_score": 0,
-                        "pre_context": "\"Even if therapies are derived from traditional practice and natural, establishing their efficacy and safety through rigorous clinical trials is critical,\" the statement added.\nThe US Centers for Disease Control and Prevention (CDC) also warned people against using unproven remedies.",
-                        "post_context": "Meanwhile, the African Union said it was in discussion with Madagascar with a view to obtain technical data regarding the safety and efficiency of the herbal remedy.\nIn an attempt to reassure people and brush aside safety concerns, Rajoelina took a dose of Covid-Organics at the launch event and said it was safe to be given to children."
-                    },
                     {
                         "cite": "While scientists at NIH and elsewhere are evaluating candidate therapies and vaccines to treat and prevent the novel coronavirus, currently there are no treatments or vaccines for COVID-19 approved by the U.S.",
                         "span": [
@@ -829,8 +757,8 @@
                         "score": 0.9944350123405457,
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
-                        "pre_context": "Hawaii\n\u201cIt is coming, and it\u2019s going to be more of a checkerboard,\u201d said Tara Smith, a professor of epidemiology at Kent State University in Ohio. \u201cIt\u2019s not going to be a wave that spreads out uniformly over all of rural America; it\u2019s going to be hot spots that come and go.",
-                        "post_context": "They do not include covid-19 deaths recorded\nas \u201cprobable\u201d but unconfirmed.\nLarge cities\nLarge city suburbs\n1 death\n1 death\nper 100,000\nper 100,000\n.5\n.5\n14-day\navg."
+                        "pre_context": "\u201cIt is coming, and it\u2019s going to be more of a checkerboard,\u201d said Tara Smith, a professor of epidemiology at Kent State University in Ohio. \u201cIt\u2019s not going to be a wave that spreads out uniformly over all of rural America; it\u2019s going to be hot spots that come and go.",
+                        "post_context": ""
                     }
                 ],
                 "support_output": "Rating: [[Partially supported]]  \n",
