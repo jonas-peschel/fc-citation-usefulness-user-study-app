@@ -115,18 +115,6 @@
                 "statement": "The evidence shows that Hunter Biden was indeed appointed to the board of Burisma in 2014 while his father was running U.S. Ukraine policy. However, there is no evidence that U.S. aid dollars went toward Burisma specifically. Instead, the evidence suggests Burisma was owned by a Ukrainian oligarch who was a sponsor of the current Ukrainian president, and that Hunter Biden was paid a significant amount for no relevant expertise or investment in the company.",
                 "citation": [
                     {
-                        "cite": "political battles, but he\u2019s already in the game and has to be flexible.\u201d\nMore must-read stories from Fortune:\n\u2014Impeachment inquiry delves into \u201cparallel\u201d Trump Ukraine diplomacy\n\u2014Marie Yovanovitch: Trump wanted her out as Ukraine ambassador\n\u2014Sizing up a roster of impeachment managers\n\u2014A running list of questions on the impeachment inquiry, answered\n\u2014How whistleblowers have taken down titans of American business\n\u201425 most powerful women in politics\nFollow Fortune on Flipboard to stay up-to-date on the latest news and analysis.",
-                        "span": [
-                            169,
-                            169
-                        ],
-                        "score": null,
-                        "relevant_output": "Rating: [[Irrelevant]]  \n",
-                        "relevant_score": 0,
-                        "pre_context": "counterparts, but we shouldn\u2019t expect any tangible results of the probe until after the election in the U.S.,\u201d said Volodymyr Fesenko of the Penta Center think tank in Kyiv.\n\u201cZelenskiy doesn\u2019t want to be involved in the U.S.",
-                        "post_context": "History is littered with hundreds of conflicts over the future of a community, group, location or business that were \"resolved\" when one of the parties stepped ahead and destroyed what was there. With the original point of contention destroyed, the debates would fall to the wayside."
-                    },
-                    {
                         "cite": "\u201cThe important thing is that the support that Biden represented was bipartisan.\u201d\nFew here doubt that Hunter Biden was offered a lucrative position on the board of Burisma Holdings, a natural gas company controlled by a controversial businessman, because of his father\u2019s prominence.",
                         "span": [
                             201,
@@ -149,54 +137,6 @@
                         "relevant_score": 1,
                         "pre_context": "Yves writes:\nRichard [Smith] did a deep dive into the dodgy appointment of Hunter Biden and then Secretary of State John Kerry\u2019s long-standing bundler, Devon Archer, to the board of Burisma Holdings. Richard quickly got past the noteworthy fact that Biden Jr.",
                         "post_context": "Oh, and Richard also describes how Hunter\u2019s and his uncle James Biden\u2019s past financial rides were with con artists.But the real puzzlement is that from everything that can be inferred, Burisma is either tiny or just a shell company. So who is behind these big director payoffs payouts?"
-                    },
-                    {
-                        "cite": "Richard found some bread crumbs that pointed to Burisma being owned by Privat Group, a conglomerate controlled by the Ukrainian oligarch Ihor Kolomoisky.",
-                        "span": [
-                            12,
-                            12
-                        ],
-                        "score": null,
-                        "relevant_output": "Rating: [[Irrelevant]]  \n",
-                        "relevant_score": 0,
-                        "pre_context": "Oh, and Richard also describes how Hunter\u2019s and his uncle James Biden\u2019s past financial rides were with con artists.But the real puzzlement is that from everything that can be inferred, Burisma is either tiny or just a shell company. So who is behind these big director payoffs payouts?",
-                        "post_context": "Burisma is officially owned by Mykola Zlochevsky, a former Ukrainian Minister for Natural Resources who (illegitimately) issued oil and gas licenses to companies he himself owned. But Richard\u2019s trail shows that Burisma was sold or raided with the help of various shell companies and that the real owner is probably the Nazi loving criminal oligarch Igor Kolomoisky."
-                    },
-                    {
-                        "cite": "Oh, and Richard also describes how Hunter\u2019s and his uncle James Biden\u2019s past financial rides were with con artists.But the real puzzlement is that from everything that can be inferred, Burisma is either tiny or just a shell company.",
-                        "span": [
-                            10,
-                            10
-                        ],
-                        "score": null,
-                        "relevant_output": "Rating: [[Irrelevant]]  \n",
-                        "relevant_score": 0,
-                        "pre_context": "Richard quickly got past the noteworthy fact that Biden Jr. was being paid quite a lot for no relevant expertise and no investment in the company\u2026so what was he being paid for, exactly?",
-                        "post_context": "So who is behind these big director payoffs payouts? Richard found some bread crumbs that pointed to Burisma being owned by Privat Group, a conglomerate controlled by the Ukrainian oligarch Ihor Kolomoisky."
-                    },
-                    {
-                        "cite": "The German state funded DW notes an additional candidate:\nIn late 2013, [Zlochevsky] denied that he owned Burisma, and an employee in his office reported that he sold the company \u2013 but no evidence of this has come to light yet.",
-                        "span": [
-                            15,
-                            15
-                        ],
-                        "score": null,
-                        "relevant_output": "Rating: [[Irrelevant]] ",
-                        "relevant_score": 0,
-                        "pre_context": "Burisma is officially owned by Mykola Zlochevsky, a former Ukrainian Minister for Natural Resources who (illegitimately) issued oil and gas licenses to companies he himself owned. But Richard\u2019s trail shows that Burisma was sold or raided with the help of various shell companies and that the real owner is probably the Nazi loving criminal oligarch Igor Kolomoisky.",
-                        "post_context": "Two oligarchs, Ihor Kolomojski and Viktor Pinchuk, have been named as the possible new owners.\n\u2026\nDW could not reach Kolomojski for comment about Burisma."
-                    },
-                    {
-                        "cite": "Kolomoisky is the sponsor of the current President of Ukraine Volodymyr Zelensky.",
-                        "span": [
-                            20,
-                            20
-                        ],
-                        "score": null,
-                        "relevant_output": "Rating: [[Irrelevant]]  \n",
-                        "relevant_score": 0,
-                        "pre_context": "Pinchuk refused to comment, but is said to have a good relationship with the Democratic Party in the US, and is also believed to have been a long time friend of former Polish President Kwasniewski.\nKwasniewski was, like Hunter Biden and his friend Devon Archer, appointed to the board of Burisma.",
-                        "post_context": "No one seems to know who really owns the company. Whoever does has hidden behind a bunch of shell companies in Cyprus and Britain."
                     },
                     {
                         "cite": "Several of the cases under audit are related to Mykola Zlochevsky, owner of the gas company Burisma, on whose board Hunter Biden in 2014 was appointed\u2014 the same time his father was leading the Obama administration\u2019s diplomatic dealings with Ukraine.",
