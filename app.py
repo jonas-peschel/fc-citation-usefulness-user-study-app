@@ -1,24 +1,6 @@
 import streamlit as st 
 from pathlib import Path 
-from utils import load_json, get_attr_method, METH2LABEL
-
-#--- citation recall colors ---#
-SUPPORTED_COLOR = "#c8f7c5"
-PARTIAL_SUPPORT_COLOR = "#fdf7c3"
-UNSUPPORTED_COLOR = "#f7c5c5"
-SUPPORT_SCORE2COLOR = {
-    0: UNSUPPORTED_COLOR,
-    0.5: PARTIAL_SUPPORT_COLOR,
-    1: SUPPORTED_COLOR,
-}
-
-#--- citation precision colors ---#
-RELEVANT_COLOR = "#1b8d36"
-IRRELEVANT_COLOR = "#cc1414"
-RELEVANT_SCORE2COLOR = {
-    0: IRRELEVANT_COLOR,
-    1: RELEVANT_COLOR,
-}
+from utils import load_json
 
 #### CSS #### 
 background_color = "#FFFFFF"
@@ -197,7 +179,6 @@ def render_verdicts(results, col_l):
     COLORS = ["#28a745", "#cc1414", "#2995bd", "#fac104"]
     EMOTES = ["\u2705", "\u274C", "\u2754", "\u26A1"]
 
-    gt_label = results.get("label")
     pred_label = results.get("pred_label")
 
     # predicted verdict
@@ -209,39 +190,16 @@ def render_verdicts(results, col_l):
         </div>
         """, unsafe_allow_html=True)
 
-    # ground truth
-    idx = LABELS.index(gt_label)
-    with col_l:
-        st.markdown(f"""
-        <div class="verdict" style="background-color: {COLORS[idx]};">
-            Ground truth verdict: {gt_label} {EMOTES[idx]}
-        </div>
-        """, unsafe_allow_html=True)
-
-def render_ground_truth_justification(eval_metrics_results, col_l):
-
-    gt_justification = eval_metrics_results["justification"]
-    with col_l:
-        st.markdown(f"""
-                    <div>
-                        <span class="section-label">Ground truth justification:</span> {gt_justification}
-                    </div>
-        """, unsafe_allow_html=True) 
-
 def render_model_answer(results, col_l):
 
     def build_answer_text(results):
-
         answer_text = "\n"
         for sc in results["statements"]:
             statement = sc["statement"]
             citation = sc["citation"]
-            support_score = sc["support_score"]
-            relevant_scores = []
 
             if citation:
                 spans = [c["span"] for c in citation]
-                relevant_scores = [c["relevant_score"] for c in citation]
                 sent_citation_strs = []
                 for span in spans:
                     start, end = span
@@ -254,20 +212,16 @@ def render_model_answer(results, col_l):
                 sent_citation_strs = [""]
         
             # apply background color depending on whether the statement is supported or not
-            color = SUPPORT_SCORE2COLOR[support_score]
-            answer_text += f"<span style='background-color: {color};'>{process_text(statement)}</span>"
+            answer_text += f"<span>{process_text(statement)}</span>"
             answer_text += " "
 
             # apply color to the citation depending on whether it is relevant or not
-            cite_colors = [RELEVANT_SCORE2COLOR[relevant_score] for relevant_score in relevant_scores]
-            for cite_str, col in zip(sent_citation_strs, cite_colors):
-                answer_text += f"<span style='color: {col};'>{cite_str}</span>"
-
+            for cite_str in sent_citation_strs:
+                answer_text += f"<span>{cite_str}</span>"
             answer_text += "\n\n"
 
         return answer_text
     
-
     answer_text = build_answer_text(results)
     with col_l:
         st.markdown(f"""
@@ -276,28 +230,7 @@ def render_model_answer(results, col_l):
                 {answer_text}
         """, unsafe_allow_html=True)  # why on earth?
 
-def render_evidences(eval_metrics_results, cc_metrics_results, longcite_cc_metrics_results, attr_method, col_r):
-
-    def build_log_prob_drops_table(drops: dict):
-        headers = "".join(f'<th>{k}</th>' for k in drops.keys())
-        values = "".join(f'<td>{v:.2f}</td>' for v in drops.values())
-
-        return f"""
-            <table style="border-collapse: collapse; margin-top: 1rem; font-size: 0.9rem; width: auto;">
-                <thead>
-                    <tr>
-                        <th>k</th>
-                        {headers}
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="section-label">Top-k log-prob drop</td>
-                        {values}
-                    </tr>
-                </tbody>
-            </table>
-        """
+def render_evidences(results, col_r):
 
     with col_r:
         st.markdown(f"""
@@ -306,29 +239,13 @@ def render_evidences(eval_metrics_results, cc_metrics_results, longcite_cc_metri
             </div>
         """, unsafe_allow_html=True) 
 
-
-    longcite_citations = longcite_cc_metrics_results["citations"]
-    log_prob_drops_dict = cc_metrics_results["metrics"]["top_k_drop"]
-    statements = eval_metrics_results["statements"]
-    citations = cc_metrics_results["citations"]
+    statements = results["statements"]
 
     # build evidence html
     evidence_html = ""
-    j = 0
     for i in range(len(statements)):
         sc = statements[i]
         citation = sc["citation"]
-
-
-
-        k_self = len(citations[j])
-        if log_prob_drops_dict["top_k_drop_citations"][j]:
-            drops = {
-                f"k={k_self}": log_prob_drops_dict["top_k_drop_citations"][j],
-            }
-        else:
-            drops = {}
-        j += 1
 
         if citation:
             evidence_html += f"""
@@ -337,38 +254,30 @@ def render_evidences(eval_metrics_results, cc_metrics_results, longcite_cc_metri
                 </div>
             """    
         for c in citation:
-            cite_text, cite_span, cite_score, relevant_score = process_text(c["cite"]), c["span"], c["score"], c["relevant_score"]
+            cite_text, pre_context, post_context, cite_span = (
+                process_text(c["cite"]), 
+                process_text(c["pre_context"]), 
+                process_text(c["post_context"]), 
+                c["span"],
+            )
             start, end = cite_span 
             if start == end:
                 cite_span_str = f"[{start}]"
             else:
                 cite_span_str = f"[{start}-{end}]"
 
-            if cite_score:        
-                score_html = f"<span>Score: {cite_score:.2f}</span>"
-            else:
-                score_html = f"<span>Score: -</span>"
-
-            relevant_text = "Relevant" if relevant_score == 1 else "Irrelevant"
-            relevant_color = RELEVANT_SCORE2COLOR[relevant_score]
-
             evidence_html += f"""
             <div class="evidence-card">
                 <div class="evidence-title">
-                    <span style='color: {relevant_color};'>{relevant_text}</span>
-                    {score_html}
-                </div>
-                <div class="evidence-title">
                     <span>Evidence snippet {cite_span_str}</span>
                 </div>
-                <div class="evidence-content">{cite_text}</div>
+                <div class="evidence-content">
+                    <span style='font-weight: 300;'>{pre_context}</span>
+                    <span style='font-weight: 600;'>{cite_text}</span>
+                    <span style='font-weight: 300;'>{post_context}</span>
+                </div>
             </div>
         """
-
-        # log-prob drops table
-        if citation:
-            table_html = build_log_prob_drops_table(drops)
-            evidence_html += f"<div class='drops-table'>{table_html}</div>"
 
     with col_r:
         st.html(f"<div class='evidence-container'>{evidence_html}</div>")
@@ -376,24 +285,27 @@ def render_evidences(eval_metrics_results, cc_metrics_results, longcite_cc_metri
 def main():
     st.set_page_config(layout="wide")
 
-    
+    # read query parameters for which claim and which experiment group to display
+    query_params = st.query_params
+    exp_group = query_params["exp_group"]
+    idx = int(query_params["item"])
 
-    # get settings
-    eval_metrics_results = load_json(eval_metrics_results_path)[idx]
-
-
+    # load corresponding results 
+    if exp_group == "A":
+        results_path = "./data/results_faithful.json"
+    elif exp_group == "B":
+        results_path = "./data/results_unfaithful.json"
+    results = load_json(results_path)[idx]
 
     # layout
     col_l, col_r = st.columns([1,1])
 
     # display content
-    render_claim(eval_metrics_results, col_l)
-    render_verdicts(eval_metrics_results, col_l)
-    render_ground_truth_justification(eval_metrics_results, col_l)
-    render_model_answer(eval_metrics_results, col_l)
-    render_evidences(eval_metrics_results, cc_metrics_results, longcite_cc_metrics_results, attr_method, col_r)
+    render_claim(results, col_l)
+    render_verdicts(results, col_l)
+    render_model_answer(results, col_l)
+    render_evidences(results, col_r)
     
-
 
 if __name__ == "__main__":
     main()
