@@ -120,6 +120,31 @@ def process_text(text):
         text = text.replace(x, y)
     return text
 
+def get_mapping_spans2cite_strs(results):
+
+    cite_strs = []
+    for sc in results["statements"]:
+        citation = sc["citation"]
+
+        sent_cite_strs = []
+        if citation:
+            spans = [c["span"] for c in citation]
+            for span in spans:
+                start, end = span
+                if start == end:
+                    cite_str = f"[{start}]"
+                else:
+                    cite_str = f"[{start}-{end}]"
+                sent_cite_strs.append(cite_str)
+
+        cite_strs.extend(sent_cite_strs)
+
+    span2citestr = dict.fromkeys(cite_strs) 
+    for i, key in enumerate(span2citestr, start=1):
+        span2citestr[key] = f"[{i}]"
+
+    return span2citestr
+
 def render_sidebar():
     app_path = Path(__file__).resolve()
     cc_metrics_results_dir = app_path.parent.parent / "context_cite_metrics/results"
@@ -190,7 +215,7 @@ def render_verdicts(results, col_l):
         </div>
         """, unsafe_allow_html=True)
 
-def render_model_answer(results, col_l):
+def render_model_answer(results, span2citestr, col_l):
 
     def build_answer_text(results):
         answer_text = "\n"
@@ -198,9 +223,9 @@ def render_model_answer(results, col_l):
             statement = sc["statement"]
             citation = sc["citation"]
 
+            sent_citation_strs = []
             if citation:
                 spans = [c["span"] for c in citation]
-                sent_citation_strs = []
                 for span in spans:
                     start, end = span
                     if start == end:
@@ -208,16 +233,12 @@ def render_model_answer(results, col_l):
                     else:
                         cite_str = f"[{start}-{end}]"
                     sent_citation_strs.append(cite_str)
-            else:
-                sent_citation_strs = [""]
         
-            # apply background color depending on whether the statement is supported or not
             answer_text += f"<span>{process_text(statement)}</span>"
             answer_text += " "
 
-            # apply color to the citation depending on whether it is relevant or not
             for cite_str in sent_citation_strs:
-                answer_text += f"<span>{cite_str}</span>"
+                answer_text += f"<span>{span2citestr.get(cite_str)}</span>"
             answer_text += "\n\n"
 
         return answer_text
@@ -230,7 +251,7 @@ def render_model_answer(results, col_l):
                 {answer_text}
         """, unsafe_allow_html=True)  # why on earth?
 
-def render_evidences(results, col_r):
+def render_evidences(results, span2citestr, col_r):
 
     with col_r:
         st.markdown(f"""
@@ -263,14 +284,14 @@ def render_evidences(results, col_r):
             )
             start, end = cite_span 
             if start == end:
-                cite_span_str = f"[{start}]"
+                cite_str = f"[{start}]"
             else:
-                cite_span_str = f"[{start}-{end}]"
+                cite_str = f"[{start}-{end}]"
 
             evidence_html += f"""
             <div class="evidence-card">
                 <div class="evidence-title">
-                    <span>Evidence snippet {cite_span_str}</span>
+                    <span>Evidence snippet {span2citestr.get(cite_str)}</span>
                 </div>
                 <div class="evidence-content">
                     <span style='font-weight: 300;'>{pre_context}</span>
@@ -301,11 +322,15 @@ def main():
     # layout
     col_l, col_r = st.columns([1,1])
 
+    # mapping to simplify the cite_strs to start at 1,2,3,...
+    span2citestr = get_mapping_spans2cite_strs(results)
+    st.write(span2citestr)
+
     # display content
     render_claim(results, col_l)
     render_verdicts(results, col_l)
-    render_model_answer(results, col_l)
-    render_evidences(results, col_r)
+    render_model_answer(results, span2citestr, col_l)
+    render_evidences(results, span2citestr, col_r)
     
 
 if __name__ == "__main__":
