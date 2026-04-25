@@ -195,7 +195,7 @@
                 "statement": "The evidence shows that all 50 states have legislation requiring specified vaccines for students, with exemptions granted for medical reasons and in some cases religious or philosophical beliefs.",
                 "citation": [
                     {
-                        "cite": "Loading...\nhttps://www.facebook.com/photo.php?fbid=551960552369167&set=a.112646526300574&type=3&eid=ARA1wOXSL8gp3ZK9Edp1G96R3fZiRuCdtHhEvG1VOPJ4DE3iXkX_bz0-2l72dlNl9H3UuNfxCWwp8sPz | 09:27:36 March 06, 2025\nGot an HTTP 302 response at crawl time\nRedirecting to...\nhttps://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D551960552369167%26set%3Da.112646526300574%26type%3D3%26eid%3DARA1wOXSL8gp3ZK9Edp1G96R3fZiRuCdtHhEvG1VOPJ4DE3iXkX_bz0-2l72dlNl9H3UuNfxCWwp8sPz\n\nAll 50 states have legislation requiring specified vaccines for students. Although exemptions vary from state to state, all school immunization laws grant exemptions to children for medical reasons.",
+                        "cite": "All 50 states have legislation requiring specified vaccines for students. Although exemptions vary from state to state, all school immunization laws grant exemptions to children for medical reasons.",
                         "span": [
                             1,
                             2
@@ -203,7 +203,7 @@
                         "score": 36.90585736222798,
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
-                        "pre_context": "Ask the publishers to restore access to 500,000+ books.",
+                        "pre_context": "",
                         "post_context": "There are 44 states and Washington D.C. that grant religious exemptions for people who have religious objections to immunizations."
                     }
                 ],
@@ -287,7 +287,7 @@
                         "score": 3.3842307583991666,
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
-                        "pre_context": "\u2014 Miriam Valverde\nOur Sources\nLinks in text.\n\nAP investigation: Drug prices going up despite Trump promise\nNEW YORK (AP) \u2014 President Donald Trump made reducing drug prices a key promise during his election campaign, repeatedly accusing drugmakers of \u201cgetting away with murder.\u201d At the end of May, he promised that drug companies would be announcing \u201cmassive\u201d voluntary drug price cuts within two weeks.",
+                        "pre_context": "AP investigation: Drug prices going up despite Trump promise\nNEW YORK (AP) \u2014 President Donald Trump made reducing drug prices a key promise during his election campaign, repeatedly accusing drugmakers of \u201cgetting away with murder.\u201d At the end of May, he promised that drug companies would be announcing \u201cmassive\u201d voluntary drug price cuts within two weeks.",
                         "post_context": "The number of increases slowed somewhat and were not quite as steep as in past years, the AP found.\nOver the first seven months of the year, there were 96 price hikes for every price cut, the AP found."
                     }
                 ],
@@ -330,7 +330,7 @@
                         "score": 8.287529732757918,
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
-                        "pre_context": "\u2014 Miriam Valverde\nOur Sources\nLinks in text.\n\nAP investigation: Drug prices going up despite Trump promise\nNEW YORK (AP) \u2014 President Donald Trump made reducing drug prices a key promise during his election campaign, repeatedly accusing drugmakers of \u201cgetting away with murder.\u201d At the end of May, he promised that drug companies would be announcing \u201cmassive\u201d voluntary drug price cuts within two weeks.",
+                        "pre_context": "AP investigation: Drug prices going up despite Trump promise\nNEW YORK (AP) \u2014 President Donald Trump made reducing drug prices a key promise during his election campaign, repeatedly accusing drugmakers of \u201cgetting away with murder.\u201d At the end of May, he promised that drug companies would be announcing \u201cmassive\u201d voluntary drug price cuts within two weeks.",
                         "post_context": "The number of increases slowed somewhat and were not quite as steep as in past years, the AP found.\nOver the first seven months of the year, there were 96 price hikes for every price cut, the AP found."
                     }
                 ],
@@ -349,7 +349,7 @@
                         "score": 49.98076293117448,
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
-                        "pre_context": "\u2014 Miriam Valverde\nOur Sources\nLinks in text.\n\nAP investigation: Drug prices going up despite Trump promise\nNEW YORK (AP) \u2014 President Donald Trump made reducing drug prices a key promise during his election campaign, repeatedly accusing drugmakers of \u201cgetting away with murder.\u201d At the end of May, he promised that drug companies would be announcing \u201cmassive\u201d voluntary drug price cuts within two weeks.",
+                        "pre_context": "AP investigation: Drug prices going up despite Trump promise\nNEW YORK (AP) \u2014 President Donald Trump made reducing drug prices a key promise during his election campaign, repeatedly accusing drugmakers of \u201cgetting away with murder.\u201d At the end of May, he promised that drug companies would be announcing \u201cmassive\u201d voluntary drug price cuts within two weeks.",
                         "post_context": "Over the first seven months of the year, there were 96 price hikes for every price cut, the AP found. Health and Human Services Secretary Alex Azar, the administration\u2019s point person for efforts to lower drug prices, conceded in a recent AP interview that it will be a while before drug prices fall."
                     },
                     {
