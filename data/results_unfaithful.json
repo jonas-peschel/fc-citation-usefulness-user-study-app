@@ -239,7 +239,7 @@
                         "score": 0.9990047216415405,
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
-                        "pre_context": "Ann. \u00a7 21-4-309\n|\nYes\n|\nNo\n|\nReligious exemption indicates that there is a provision in the statute that allows parents to exempt their children from vaccination if it contradicts their sincere religious beliefs.",
+                        "pre_context": "Religious exemption indicates that there is a provision in the statute that allows parents to exempt their children from vaccination if it contradicts their sincere religious beliefs.",
                         "post_context": "Sources: Chart adapted from Immunization Action Coalition, \"Exemptions Permitted for State Immunization Requirements,\" 2017; LexisNexis; StateNet 2017\nNote: List may not be comprehensive, but is representative of state laws that exist. NCSL appreciates additions and corrections."
                     },
                     {
@@ -264,7 +264,7 @@
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
                         "pre_context": "- Louisiana House Bill 176 requires students who are entering eleventh grade or who are 16 and entering any grade to provide satisfactory evidence of current immunization against meningococcal disease as a condition of school entry, and provides for exceptions.\nEnacted Legislation 2017\n- Indiana House Bill 1069 adds meningitis to the required immunizations a student enrolling in a residential campus of an approved postsecondary educational institution must be immunized against.",
-                        "post_context": "Code \u00a7 16-30-3\n|\nYes\n|\nNo\n|\n|\nAlaska\n|\nAk. Stat."
+                        "post_context": "Code \u00a7 16-30-3"
                     }
                 ],
                 "support_output": "Rating: [[Partially supported]]  \n",
@@ -872,7 +872,7 @@
                         "score": 0.7486605644226074,
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
-                        "pre_context": "Vitamins\nDo not take high-dose multivitamin supplements, or any supplements with vitamin A in them.\nUrgent advice: Get advice from 111 straight away if:\n- you feel unwell after eating one of the foods to avoid\n- you have signs of listeriosis or toxoplasmosis infection\nYou can call 111 or get help from 111 online\nGet Better Health's Start for Life pregnancy and baby emails\nSign up for Start for Life weekly emails for expert advice, videos and tips on pregnancy, birth and beyond.",
+                        "pre_context": "Get Better Health's Start for Life pregnancy and baby emails\nSign up for Start for Life weekly emails for expert advice, videos and tips on pregnancy, birth and beyond.",
                         "post_context": "Fifty years ago, family planning was recognized as a human right. Yet safe and reliable forms of contraception are still out of reach for hundreds of millions of people."
                     },
                     {
@@ -1425,8 +1425,7 @@
                         ],
                         "score": 0.9874968528747559,
                         "pre_context": "He also prayed the court to grant the defendant bail in liberal terms which was not opposed by the prosecution counsel.\n\nMr.",
-                        "post_context": "WARRI- Participants of the just-concluded ISO 9001:2015 Quality Management...\n\u2026..As Uzodimma Calls for Deeper Collaboration By Peter Onyekachukwu In a renewed push for inclusive...\nBy Peter Onyekachukwu In a bold step aimed at strengthening Nigeria\u2019s security architecture, the National...\nBy Peter Onyekachukwu A coalition of civil society organisations in Kano has raised alarm over...\nBy Peter Onyekachukwu In a move aimed at rebuilding public trust and ensuring safer military...\nBy Peter Onyekachukwu After years of neglect and heartbreaking delays, over 8,600 retired workers in...\nBy Peter Onyekachukwu After three long months of silence in classrooms across the Federal Capital...\nBy Peter Onyekachukwu In what many see as a frank reality check, Chief of Staff...\nBy Peter Onyekachukwu The Executive Chairman of the Economic and Financial Crimes Commission (EFCC), Ola...\n\u2026..Hunger Deepens Across as Insecurity-Hit Northern Nigeria By Peter Onyekachukwu In communities across northern Nigeria,...\nBy Peter Onyekachukwu Residents of Eliozu, a bustling community in Obio Akpor Local Government Area...\nIn a bid to promote local content development and uphold standard and quality management systems,...\nIn the heart of Osun State, Southwest Nigeria, a traditional ruler is rewriting the script...\nGovernor Chukwuma Charles Soludo of Anambra State has made a striking revelation about the security...\nBy Peter Onyekachukmeluwa A quiet night in Jos turned chaotic when a trailer lost control...\nNigeria\u2019s aviation sector received a boost today as Enugu Air officially commenced domestic flight operations...\nBy Peter Onyekachukmeluwa Bayelsa State Governor, Senator Douye Diri, has paid tribute to the late...\nPregnant UNIPORT Student Allegedly Sets Lover Ablaze in Domestic Dispute By Peter Onyekachukmeluwa In a...\nThe National Association of Nigerian Students (NANS) has appealed to the Academic Staff Union of...\nThe Chinese Embassy in Nigeria has declared full support for the Nigerian government\u2019s efforts to...\n\n\u201cOur success lies in our commitment to strict adherence to the rule of law and the National Anti-corruption Strategy, the African Union Convention Against Corruption, as well as the United Nations Convention Against Corruption, (UNCAC),\u201d Magu stated.\nWhile recounting the successes of the Commission, Magu revealed that the EFCC in the last four years has secured remarkable convictions and recoveries, through conviction-based and non-conviction-based forfeitures.",
-                        "relevant_output": "Rating: [[Relevant]]  \n",
+                        "post_context": "",
                         "relevant_score": 1
                     },
                     {
@@ -1854,7 +1853,7 @@
                         "relevant_output": "Rating: [[Irrelevant]]  \n",
                         "relevant_score": 0,
                         "pre_context": "\u201cAddressing Connecticut\u2019s short and long-term fiscal challenges is the key to attracting and retaining businesses and building a stronger, vibrant economy.\u201d\nNew England States\nAt 14th overall, Massachusetts was the best of the New England states, ranked first for education and in the top 10 for workforce, technology and innovation, access to capital, and quality of life.\nMassachusetts fell from eighth in last year\u2019s study, driven by declines in infrastructure and the cost of doing business.",
-                        "post_context": "Louisiana (44th)\n47. Alaska (50th)\n48."
+                        "post_context": "Louisiana (44th)\n47. Alaska (50th)"
                     },
                     {
                         "cite": "\u201cThis state lavishes attention on its great schools, but it can be difficult to endure the high costs,\u201d the study\u2019s authors wrote.\nCBIA president and CEO Joe Brennan noted the state\u2019s improvement across a number of categories in the CNBC study.\n\u201cConnecticut\u2019s competitiveness can make a major jump in a relatively short period if we focus on getting our fiscal house in order,\u201d Brennan said.",
@@ -2469,7 +2468,7 @@
                             42
                         ],
                         "score": 0.9995778799057007,
-                        "pre_context": "\"**\nInfluenza kills, on average, 20,000 people a year in the United States and puts 100,000 in the hospital.\nYet only about 63 percent of people over the age of 65 get their flu hots, and the percentages are even lower for blacks and Hispanics.",
+                        "pre_context": "Influenza kills, on average, 20,000 people a year in the United States and puts 100,000 in the hospital.\nYet only about 63 percent of people over the age of 65 get their flu hots, and the percentages are even lower for blacks and Hispanics.",
                         "post_context": "This estimation of three times the reported pediatric deaths was arrived at based on the observation that about two-thirds of children who died with a suspected viral background were not tested for influenza.[12]\n### New York\n[edit]On 10 February 2018, officials in New York City confirmed the third pediatric flu death for the 2017\u20132018 season.",
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1
@@ -2718,7 +2717,7 @@
                             6
                         ],
                         "score": null,
-                        "pre_context": "Mar-09 Mar-10 Mar-11 Mar-12 Mar-13 Mar-14 Mar-15 Mar-16 FIGURE 5 Median usual weekly earnings in 2016 dollars, 2009\u20132017\nSource: U.S. Bureau of Labor Statistics, \"Databases, Tables & Calculators by Subject: Employment,\" available at https://www.bls.gov/data/ #employment (last accessed May 2017).",
+                        "pre_context": "Source: U.S. Bureau of Labor Statistics, \"Databases, Tables & Calculators by Subject: Employment,\" available at https://www.bls.gov/data/ #employment (last accessed May 2017).",
                         "post_context": "It fell to 105.9 percent by the second half of 2016 after declining during both of President Obama\u2019s terms. (see Figure 6) This marked the larg- est debt declines since the 1950s, when the data start.",
                         "relevant_output": "Rating: [[Irrelevant]]\n",
                         "relevant_score": 0
@@ -2738,7 +2737,7 @@
                         ],
                         "score": null,
                         "pre_context": "This is close to its growth for the last six years of Reagan\u2019s presidency. Yet, the number of people deemed to be living in poverty has not declined, but has increased by more than 3 million.",
-                        "post_context": "They will presumably continue were a Republican elected president. Should one also expect more of the same from Hillary Clinton who wants to build \u201con the progress the president has made,\u201d or Bernie Sanders who thinks Obama \u201chas done an excellent job?\u201d8\n**Footnotes**\n1.",
+                        "post_context": "They will presumably continue were a Republican elected president. Should one also expect more of the same from Hillary Clinton who wants to build \u201con the progress the president has made,\u201d or Bernie Sanders who thinks Obama \u201chas done an excellent job?\u201d",
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1
                     },
@@ -2749,7 +2748,7 @@
                             6
                         ],
                         "score": null,
-                        "pre_context": "Mar-09 Mar-10 Mar-11 Mar-12 Mar-13 Mar-14 Mar-15 Mar-16 FIGURE 5 Median usual weekly earnings in 2016 dollars, 2009\u20132017\nSource: U.S. Bureau of Labor Statistics, \"Databases, Tables & Calculators by Subject: Employment,\" available at https://www.bls.gov/data/ #employment (last accessed May 2017).",
+                        "pre_context": "Source: U.S. Bureau of Labor Statistics, \"Databases, Tables & Calculators by Subject: Employment,\" available at https://www.bls.gov/data/ #employment (last accessed May 2017).",
                         "post_context": "It fell to 105.9 percent by the second half of 2016 after declining during both of President Obama\u2019s terms. (see Figure 6) This marked the larg- est debt declines since the 1950s, when the data start.",
                         "relevant_output": "Rating: [[Irrelevant]]  \n",
                         "relevant_score": 0
@@ -2780,7 +2779,7 @@
                             85
                         ],
                         "score": null,
-                        "pre_context": "6\nEven the record during Reagan\u2019s presidency may be viewed as more favorable than Obama\u2019s. During the time Reagan was president, the official rate of poverty peaked at 15.2% in 1983.",
+                        "pre_context": "Even the record during Reagan\u2019s presidency may be viewed as more favorable than Obama\u2019s. During the time Reagan was president, the official rate of poverty peaked at 15.2% in 1983.",
                         "post_context": "A quip that was made about Reagan is that he liked poor people so much that he acted to increase their numbers. During his first three years, the poverty rate and the number of people deemed to be impoverished increased, reaching its peak in 1983.",
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1
@@ -2875,7 +2874,7 @@
                         "score": 0.9888259172439575,
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
-                        "pre_context": "|\n| Purpose | Respirators protect from exposure to airborne particles. In healthcare, protects from exposure to biological aerosols including viruses and bacteria.",
+                        "pre_context": "Purpose | Respirators protect from exposure to airborne particles. In healthcare, protects from exposure to biological aerosols including viruses and bacteria.",
                         "post_context": "Protects the patient from the wearer\u2019s respiratory emissions. |\n| Fit (Face seal) | Respirators are designed to seal tight to the face of the wearer."
                     },
                     {
@@ -3210,7 +3209,7 @@
                         ],
                         "score": 0.8049455881118774,
                         "pre_context": "In a press conference, Eric Domingo said \u201cI think this is a home remedy that has been followed for many, many generations and I don\u2019t think there\u2019s going to be any harm in doing it. Saline gargle has always been advocated to improve mostly symptoms of sore throat\u2026I don\u2019t think there is any evidence that it will kill a virus,\u201d Domingo said.",
-                        "post_context": "**Sources**\n\n\nMask patterns: https://drive.google.com/file/d/1gaiM3yZLalU1_7mlMeLR-3967A8cEu5H/view\nThe new Coronavirus may not show sign of infection for many days. How can you know if you are infected?",
+                        "post_context": "",
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1
                     },
@@ -3296,7 +3295,7 @@
                         ],
                         "score": 0.735797643661499,
                         "pre_context": "In a press conference, Eric Domingo said \u201cI think this is a home remedy that has been followed for many, many generations and I don\u2019t think there\u2019s going to be any harm in doing it. Saline gargle has always been advocated to improve mostly symptoms of sore throat\u2026I don\u2019t think there is any evidence that it will kill a virus,\u201d Domingo said.",
-                        "post_context": "**Sources**\n\n\nMask patterns: https://drive.google.com/file/d/1gaiM3yZLalU1_7mlMeLR-3967A8cEu5H/view\nThe new Coronavirus may not show sign of infection for many days. How can you know if you are infected?",
+                        "post_context": "",
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1
                     },
@@ -3363,7 +3362,7 @@
                         ],
                         "score": 0.7311034202575684,
                         "pre_context": "In a press conference, Eric Domingo said \u201cI think this is a home remedy that has been followed for many, many generations and I don\u2019t think there\u2019s going to be any harm in doing it. Saline gargle has always been advocated to improve mostly symptoms of sore throat\u2026I don\u2019t think there is any evidence that it will kill a virus,\u201d Domingo said.",
-                        "post_context": "**Sources**\n\n\nMask patterns: https://drive.google.com/file/d/1gaiM3yZLalU1_7mlMeLR-3967A8cEu5H/view\nThe new Coronavirus may not show sign of infection for many days. How can you know if you are infected?",
+                        "post_context": "",
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1
                     }
@@ -3653,7 +3652,7 @@
                         "relevant_output": "Rating: [[Relevant]]  \n",
                         "relevant_score": 1,
                         "pre_context": "He specifically condemned the idea of retaliating against inspectors general for reports superiors didn\u2019t like.\nA report from his committee even said the president\u2019s ability to remove an inspector general \"threatens the IG\u2019s independence at a very basic level.\"",
-                        "post_context": "That\u2019s a complete change in position, or as we call it, a Full Flop.\nOur Sources\nCNN, \u2018State of the Union\u2019 with Jake Tapper, May 17, 2020\nThe Washington Post, Hypocrisy watch: Republicans who championed inspectors general under Obama stand by as Trump purges them, May 2020\nThe Bulwark, The Strange Case of Ron Johnson, May 20, 2020\nRon Johnson, Opening statement: \"Watchdogs Needed Top Government Investigator Positions Left Unfilled for Years,\" June 3, 2015\nGovernment Executive, Senators to Obama: Fill the Inspector General Vacancies, June 3, 2015\nCommittee on Homeland Security and Government Affairs, Report on Inspector General Empowerment Act of 2015, May 5, 2015\nThe Washington Post, Trump ramps up retaliatory purge with firing of State Department inspector general, May 16, 2020\nCBS, The internal watchdogs Trump has fired or replaced, May 19, 2020\nCouncil of the Inspectors General on Integrity and Efficiency, Inspector General Act of 1978, enacted July 7, 2014\nCongressional Research Service, Removal of Inspectors General: Rules, Practice, and Considerations for Congress, May 26, 2020\nFederal News Network, Who do inspectors general work for?, April 16, 2020\nNational Security Agency Office of the Inspector General, Nine OIG Employees Recognized at the 2019 CIGIE Award Ceremony, Dec."
+                        "post_context": "That\u2019s a complete change in position, or as we call it, a Full Flop."
                     },
                     {
                         "cite": "But some prominent voices have noted a shift from the Wisconsin Republican under President Donald Trump \u2014 particularly as Trump has removed five inspectors general in a series of moves many have labeled political retaliation.\n\"The man who was so worried about politicization of the IGs under Obama has not even offered pro-forma objections to the defenestration of the watchdogs that he used to champion,\" the longtime Wisconsin radio voice Charlie Sykes, a conservative, wrote May 20, 2020, for The Bulwark.",
